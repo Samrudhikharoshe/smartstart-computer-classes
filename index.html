@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Beginner-friendly online basic computer classes in Marathi and English. Evening batches and recorded lessons.">
+  <title>SmartStart Computer Classes | Learn From Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="SmartStart home">
+      <span class="brand-mark">S</span><span>SmartStart <small>Computer Classes</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a href="#courses">Courses</a><a href="#benefits">Why learn with us?</a>
+      <a href="#pricing">Fees</a><a href="#contact" class="nav-cta">Enquire now</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">BEGINNER-FRIENDLY • ONLINE • FROM HOME</p>
+        <h1>Learn computer skills with <span>confidence.</span></h1>
+        <p class="hero-text">Basic computer lessons in Marathi + English. Learn step by step with evening batches and recorded lessons for revision.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#contact">Join a batch</a>
+          <a class="button secondary" href="#courses">Explore courses</a>
+        </div>
+        <div class="mini-trust"><span>✓ Beginner friendly</span><span>✓ Live online learning</span><span>✓ Recorded lessons</span></div>
+      </div>
+      <div class="hero-card">
+        <div class="screen-icon">⌨</div>
+        <p class="card-label">YOUR LEARNING JOURNEY</p>
+        <h2>Start with the basics.</h2>
+        <ul><li>Computer fundamentals</li><li>Typing and file management</li><li>Word, Excel and PowerPoint</li><li>Internet and email safety</li></ul>
+        <div class="schedule"><span>Next batch</span><strong>Evening</strong></div>
+      </div>
+    </section>
+
+    <section class="section" id="courses">
+      <div class="section-heading"><p class="eyebrow">WHAT YOU'LL LEARN</p><h2>Practical skills for everyday use</h2><p>Short lessons, simple explanations and hands-on practice.</p></div>
+      <div class="course-grid">
+        <article class="course-card"><div class="course-icon">🖥️</div><h3>Computer Basics</h3><p>Parts of a computer, desktop, folders, files, keyboard and mouse.</p><span class="tag">Beginner</span></article>
+        <article class="course-card"><div class="course-icon">📄</div><h3>MS Word & Documents</h3><p>Create, format and save documents, applications and resumes.</p><span class="tag">Practical</span></article>
+        <article class="course-card"><div class="course-icon">📊</div><h3>Excel Basics</h3><p>Tables, simple formulas, sorting and everyday spreadsheets.</p><span class="tag">Practical</span></article>
+        <article class="course-card"><div class="course-icon">🌐</div><h3>Internet & Email</h3><p>Search online, use email and learn basic digital safety.</p><span class="tag">Essential</span></article>
+      </div>
+    </section>
+
+    <section class="benefits" id="benefits">
+      <div><p class="eyebrow">LEARN AT YOUR PACE</p><h2>Support that makes learning easier.</h2><p>Lessons are explained in simple Marathi and English, with time to practise and ask questions.</p></div>
+      <div class="benefit-list">
+        <div><span>01</span><section><h3>Evening batches</h3><p>Convenient timing for students and beginners.</p></section></div>
+        <div><span>02</span><section><h3>Recorded lessons</h3><p>Review lessons again when available for your batch.</p></section></div>
+        <div><span>03</span><section><h3>Practice-based learning</h3><p>Build skills through simple tasks and examples.</p></section></div>
+      </div>
+    </section>
+
+    <section class="section pricing-section" id="pricing">
+      <div class="section-heading"><p class="eyebrow">SIMPLE PRICING</p><h2>Choose your learning plan</h2><p>Replace the sample fees below before publishing.</p></div>
+      <div class="pricing-grid">
+        <article class="price-card"><p class="plan-name">Starter</p><h3>Computer Basics</h3><p class="price">₹399 <small>/ course</small></p><ul><li>Computer fundamentals</li><li>Files and folders</li><li>Beginner practice tasks</li></ul><a class="button secondary full" href="#contact" data-plan="Starter - Computer Basics">Ask about this plan</a></article>
+        <article class="price-card featured"><div class="popular">POPULAR</div><p class="plan-name">Practical Skills</p><h3>Basics + Office</h3><p class="price">₹699 <small>/ course</small></p><ul><li>Computer basics</li><li>Word and Excel basics</li><li>Practice assignments</li><li>Recorded lessons where available</li></ul><a class="button primary full" href="#contact" data-plan="Practical Skills - Basics + Office">Ask about this plan</a></article>
+        <article class="price-card"><p class="plan-name">Digital Basics</p><h3>Internet & Email</h3><p class="price">₹299 <small>/ course</small></p><ul><li>Internet searching</li><li>Email basics</li><li>Online safety basics</li></ul><a class="button secondary full" href="#contact" data-plan="Digital Basics - Internet & Email">Ask about this plan</a></article>
+      </div>
+      <p class="pricing-note">Sample prices only. Confirm course length, batch size, syllabus and final fee with the instructor before accepting payment.</p>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-copy"><p class="eyebrow">READY TO START?</p><h2>Ask about the next batch.</h2><p>Fill in your details. The website will prepare a WhatsApp enquiry message for you to send.</p><div class="contact-detail"><span>🕒</span><div><strong>Batch timing</strong><p>Evening batches</p></div></div><div class="contact-detail"><span>🎥</span><div><strong>Recorded lessons</strong><p>Available for revision where offered</p></div></div></div>
+      <form id="enquiryForm" class="enquiry-form">
+        <label for="studentName">Your name</label><input id="studentName" name="studentName" required maxlength="70" placeholder="Enter your name">
+        <label for="phone">Your phone number</label><input id="phone" name="phone" required inputmode="tel" pattern="[0-9+\-\s]{10,16}" placeholder="10-digit mobile number">
+        <label for="course">Course interested in</label><select id="course" name="course" required><option value="">Choose a course</option><option>Computer Basics</option><option>Basics + Word & Excel</option><option>Internet & Email</option><option>Not sure yet</option></select>
+        <label for="message">Question (optional)</label><textarea id="message" name="message" rows="3" maxlength="300" placeholder="Tell us what you want to learn"></textarea>
+        <button class="button primary full" type="submit">Prepare WhatsApp enquiry</button>
+        <p class="form-note">Your details are not sent automatically. WhatsApp opens so you can review and send the message yourself.</p>
+        <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">S</span><span>SmartStart <small>Computer Classes</small></span></a><p>Learn useful digital skills, one step at a time.</p><small>© <span id="year"></span> SmartStart Computer Classes. Update this template with your real business details before publishing.</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
